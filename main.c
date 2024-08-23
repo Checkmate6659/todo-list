@@ -12,7 +12,7 @@
 
 const char FNAME[] = "todolist"; //save file name (contains \0)
 //this is probably what you think it is; formatting %d is for MAX_TASK_DISPLAY
-const char HELP_TEXT[] = """TODO: A simple to-do list program \n\n\
+const char HELP_TEXT[] = "TODO: A simple to-do list program \n\n\
 Usage: todo [command] [arguments]\n\
 Options\n\
   <none>\t\t\tShow at most the first %d elements of the to-do list\n\
@@ -21,7 +21,7 @@ Options\n\
   -a, --add [priority] [task]\tAdd task to the to-do list\n\
   -r, --remove [id]\t\tRemove task from the to-do list\n\
   -p, --priority [id]\t\tModify priority of a task\n\
-  --getfpath\t\t\tPrint save file path\n""";
+  --getfpath\t\t\tPrint save file path\n";
 
 typedef struct {
     uint16_t id;
